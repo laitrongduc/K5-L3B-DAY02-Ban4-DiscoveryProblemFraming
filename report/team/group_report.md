@@ -118,7 +118,7 @@ Interview snapshot:
 | Trường | Nội dung |
 |---|---|
 | Người được hỏi (vai trò, không ghi tên thật) | Bác sĩ điều trị (thành viên trong nhóm) |
-| Câu nói đáng nhớ nhất (nguyên văn) | "Mỗi lần gặp ca khó tôi phải mở hàng chục tab PubMed chỉ để loại mấy bài nghiên cứu kém chất lượng hoặc sai nhóm đối tượng bệnh nhân." |
+| Câu nói đáng nhớ nhất (nguyên văn) | "Trong quá trình tìm tài liệu, a thấy việc tìm kiếm rất mất thời gian và tốn công sức" |
 | Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Khi viết proposal nghiên cứu / chuyên môn cần tìm và sàng lọc y văn |
 | Hiện đang xử lý bằng cách nào (workaround)? | Dùng Google, PubMed, UpToDate, guideline của hội chuyên ngành và Bộ Y tế |
 | Mất bao lâu, bao lần? | 60 phút/lần chỉ để tìm và lọc y văn cho một ca khó (+ 30 phút đọc kỹ = 90 phút/lần)  |
