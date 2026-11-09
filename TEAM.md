@@ -46,11 +46,13 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
 - Đóng góp Problem Card #1 (*Bác sĩ lọc y văn*), trực tiếp thuyết trình slide `Ban4 — Bác sĩ lọc y văn` và trả lời câu hỏi phản biện trên lớp.
+- Tạo (với sự hỗ trợ của AI) và kiểm duyệt bộ eval mẫu 10 test case cho bước LLM, chấm theo 3 tiêu chí ở Mục 7: 4 ca chuẩn, 2 ca lệch quần thể, 2 ca nhạy số liệu, 1 ca outdate, 1 ca không đủ dữ kiện; chốt ground truth theo chuyên môn và ghi rõ giới hạn của bộ eval.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
 - Báo cáo cá nhân: `report/individual/2A202604013_NguyenBaoTrung.md` (commit `d739f2f`)
 - Báo cáo nhóm (`report/team/group_report.md`): Mục 1 (Candidate problem & quyết định), Mục 3.2 (trả lời phỏng vấn/kiểm chứng với vai trò bác sĩ & sửa problem sau kiểm chứng), Mục 4.1 (quy trình 5 bước ban đầu), Mục 5 & Mục 7 (Problem Statement v0 → v1: đổi Actor sang bác sĩ trẻ junior + người muốn tìm hiểu kỹ thuật mới, khoanh vùng AI), Mục 8.2 (quyết định Go pilot nhỏ trên kho chuyên khoa RHM & ngưỡng dừng cancel nếu bịa số liệu trích dẫn).
+- Bộ eval mẫu: `report/assets/cp6-eval-dataset.md`, link từ Mục 7 của báo cáo nhóm.
 
 **Điều mình học được từ phần nhóm:**
 

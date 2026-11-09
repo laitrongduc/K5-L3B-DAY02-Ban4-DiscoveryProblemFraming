@@ -118,7 +118,7 @@ Interview snapshot:
 | Trường | Nội dung |
 |---|---|
 | Người được hỏi (vai trò, không ghi tên thật) | Bác sĩ điều trị (thành viên trong nhóm) |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
+| Câu nói đáng nhớ nhất (nguyên văn) | "Trong quá trình tìm tài liệu, a thấy việc tìm kiếm rất mất thời gian và tốn công sức" |
 | Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Khi viết proposal nghiên cứu / chuyên môn cần tìm và sàng lọc y văn |
 | Hiện đang xử lý bằng cách nào (workaround)? | Dùng Google, PubMed, UpToDate, guideline của hội chuyên ngành và Bộ Y tế |
 | Mất bao lâu, bao lần? | 60 phút/lần chỉ để tìm và lọc y văn cho một ca khó (+ 30 phút đọc kỹ = 90 phút/lần)  |
@@ -288,6 +288,8 @@ Vì sao: Quy trình gồm nhiều bước tìm kiếm, đối chiếu từ nhi�
 | 1 | Bài giữ lại đúng loại & quần thể | 100% đúng loại (guideline / SR / RCT) và đúng quần thể | Giữ lại bài sai loại nghiên cứu hoặc sai quần thể bệnh |
 | 2 | Độ chính xác trích dẫn số liệu  | 0 lỗi trích dẫn sai số liệu (bác sĩ đối chiếu với đoạn gốc) | Bịa số liệu hoặc trích dẫn sai so với đoạn gốc |
 | 3 | Độ cập nhật của tài liệu (Không outdate) | Tài liệu/guideline được trích xuất còn hiệu lực, không bị lỗi thời (outdate) | Lấy khuyến cáo từ phác đồ/tài liệu cũ đã hết hiệu lực hoặc đã có bản cập nhật mới thay thế |
+
+**Bộ eval mẫu:** 10 cặp input / đầu ra mong đợi cho bước LLM, chấm theo 3 tiêu chí trên (4 ca chuẩn, 2 ca lệch quần thể, 2 ca nhạy số liệu, 1 ca outdate, 1 ca không đủ dữ kiện). Xem [cp6-eval-dataset.md](../assets/cp6-eval-dataset.md). Đoạn trích trong bộ eval là văn bản giả định để kiểm thử, không phải trích dẫn thật.
 
 ---
 
