@@ -1,4 +1,4 @@
-# Báo cáo cá nhân — MSSV_HoTen
+# Báo cáo cá nhân — 2A202603984_DangQuangDuy
 
 > Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
@@ -10,7 +10,7 @@
 - MSSV: 2A202603984
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: Ban4
-- Link repo nhóm:
+- Link repo nhóm: https://github.com/laitrongduc/K5-L3B-DAY02-Ban4-DiscoveryProblemFraming
 
 ---
 
@@ -153,16 +153,16 @@ BOTTLENECK GIẢ ĐỊNH: Bước 2–4 — chuyển rubric thành checklist và
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card |  | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch 3 candidate cho nhóm: #4 (tổng hợp tài liệu ôn thi, sinh viên CNTT), #5 (ticket CSKH thương mại điện tử), #6 (đơn COD có nguy cơ bị từ chối). Với mỗi card nêu Job Story, actor, bước nghẽn và số phút/số đơn. | Card #4 vào shortlist và đạt 30/35 điểm, xếp thứ 2 sau candidate bác sĩ lọc y văn (31); được xếp vào cluster A cùng #1, #2, #8, #9. Card #5 và #6 không vào shortlist. |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: với candidate #10 (hóa đơn lệch PO của Minh Phương), tôi hỏi nghẽn thật nằm ở bước đối chiếu hay bước chờ mua hàng/kho duyệt, và doanh nghiệp vừa ở VN có PO/phiếu nhập điện tử để đối chiếu không. | Câu hỏi nhắm vào hai giả định chưa có bằng chứng (vị trí bottleneck và dữ liệu có sẵn). Nhóm ghi lại đúng hai lý do này khi loại #10: chưa kiểm chứng được PO/phiếu nhập điện tử ở doanh nghiệp vừa VN, và baseline chỉ có số liệu Mỹ. |
+| Nhận phản biện | Câu hỏi tôi nhận được: (Trung, về #4) làm thế nào đảm bảo AI không bỏ sót kiến thức quan trọng hoặc tổng hợp sai nội dung từ slide và giáo trình; (về #5) AI xử lý thế nào các ngoại lệ như đơn thất lạc, hoàn tiền chậm, khiếu nại; (về #6) dữ liệu nào ảnh hưởng nhất tới việc khách từ chối nhận hàng và xử lý ra sao khi dữ liệu lịch sử thiếu. | Tôi đã sửa gì: ở card #1 của báo cáo cá nhân, thêm metric chất lượng gồm khả năng truy ngược về tài liệu gốc, mức bao phủ đề cương và điểm tự kiểm tra 20 câu; đồng thời thu hẹp phạm vi về một môn học thay vì xây chatbot học tập tổng quát. |
+| Gom cluster / cây OST | Candidate #4 nằm trong cluster A "Tìm, lọc và tổng hợp thông tin từ nhiều nguồn"; #5 vào cluster B; #6 vào cluster D. Ở OST, nhóm gạch bỏ ý "Sinh viên cần ChatGPT tóm tắt slide ôn thi" vì là tên công cụ, pain thật là 3–4 giờ/môn đọc và chọn lọc. | Cluster A trở thành nhánh chứa candidate được chọn (#1 bác sĩ lọc y văn). Việc gạch ý ChatGPT ở trên chính là áp dụng nguyên tắc "tầng opportunity chỉ chứa pain" cho card của tôi. |
+| Chọn candidate problem | Card #4 của tôi đạt 30 điểm so với 31 của candidate được chọn; chênh 1 điểm. Điểm thấp hơn của #4 nằm ở "Pain có bằng chứng" (3/5), vì 3–4 giờ/môn mới là ước tính chưa bấm giờ. | Nhóm chọn candidate bác sĩ lọc y văn. |
+| Kiểm chứng / research | Không phụ trách | Kết quả nhóm: 1 phỏng vấn bác sĩ (60' tìm và lọc + 30' đọc kỹ), Del Fiol 2014 (chỉ 51% câu hỏi được đi tìm câu trả lời), 2 công cụ đã có đều bị loại vì vướng NPI Mỹ hoặc chi phí Enterprise. Actor được đổi sang bác sĩ trẻ. |
+| Quy trình nhóm | Tôi tham gia góp ý vào các bước quy trình | Quy trình hiện tại 5 bước (~90' gồm 30' đọc kỹ), bottleneck Bước 4 (25'). Quy trình tương lai gồm 4 bước Rule → DL → LLM → Bác sĩ. |
+| Problem Statement | Không phụ trách | v1 đổi Actor và thêm Boundary "không để sinh viên tìm bằng ChatGPT" sau phản biện trên lớp. |
+| Mức can thiệp AI | Chỉ ra những khó khăn của việc No AI | Nhóm chọn Workflow (Rule + DL + LLM, bác sĩ quyết định), ô mơ hồ cao × phức tạp cao; không chọn Agent vì rủi ro hallucinate trong y tế. |
+| Quyết định | Gói ý về việc pilot trên phạm vi hẹp | Go (phạm vi hẹp, pilot trên kho Răng Hàm Mặt); ngưỡng dừng: bịa số liệu trích dẫn thì cancel và quay về tra cứu thủ công. |
 
 ---
 
@@ -170,12 +170,12 @@ BOTTLENECK GIẢ ĐỊNH: Bước 2–4 — chuyển rubric thành checklist và
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Sau khi tự scan 8 problem theo 4 lăng kính, dùng AI gợi ý thêm vấn đề (không đưa giải pháp). | Gợi ý thêm các tình huống tôi chưa nghĩ tới: tạo flashcard từ bài giảng, đối chiếu kiến thức theo đề cương, kiểm tra bài nộp theo rubric, tìm lại thông báo môn học. | Có ý quá rộng, kiểu "trợ lý AI học tập toàn diện", không chỉ ra quy trình, actor hay bottleneck. Các con số thời gian chỉ là ước tính, không có bằng chứng thật. | Chỉ giữ ý có tình huống và kết quả cụ thể; loại ý chung chung. Đánh dấu rõ mọi con số là "ước tính cần kiểm chứng" và ghi cách kiểm chứng (bấm giờ, lịch sử tin nhắn nhóm). |
+| CP2 Problem Card | Dùng prompt "product manager hoài nghi" để phản biện Problem Card #1. | Chỉ ra 4 điểm yếu: mốc 3–4 giờ/môn chưa đo; "kiến thức trọng tâm" mơ hồ; chỉ đo thời gian thì bộ ôn tập có thể nhanh nhưng thiếu hoặc sai; nguy cơ phình thành "chatbot học tập". | | Đồng ý cả 4 điểm và sửa: ghi rõ ước tính, gắn nội dung ôn tập với đề cương/slide thay vì để AI đoán đề, thêm metric chất lượng (truy ngược nguồn, bao phủ đề cương, tự kiểm tra 20 câu), thu hẹp về một môn học trước kỳ thi. |
+| CP4 Research | Không dùng AI | | | |
+| CP5 Quy trình | Nhờ AI chuyển quy trình sang Mermaid/ASCII | | Worksheet cảnh báo AI hay gộp hai bước thành một và làm mất bottleneck. | Prompt kỹ hơn |
+| CP5–6 Problem Statement | Có sử dụng prompt phản biện Problem Statement để rà soát 6 trường: Actor, Quy trình, Bottleneck, Impact, Success Metric và Boundary. | | AI chỉ ra rằng Bottleneck (90–120 phút) và Success Metric (baseline 190–240 phút) mới là số liệu ước tính, chưa được đo thực tế. Đồng thời, AI chỉ ra phần giả thuyết AI và cảm nhận Workflow đã bắt đầu đề cập đến giải pháp, cần tách biệt với problem. Boundary cũng chưa được xác định rõ. | Cần kiểm chứng thời gian thực tế ở từng bước, thu thập dữ liệu từ sinh viên và xác định rõ phạm vi đầu vào, đầu ra cũng như trách nhiệm của người dùng trước khi chốt Problem Statement v1. |
+| CP6 Mức can thiệp / quyết định | Có sử dụng AI để so sánh 4 mức No AI / Rule / Workflow / Agent và xem xét AI Canvas. | | AI không đẩy lên Agent quá sớm. Qua phân tích, quy trình ôn tập có các bước tương đối ổn định, đầu vào chủ yếu là tài liệu do sinh viên cung cấp và các bước xử lý có thể định nghĩa trước. Agent tự quyết định bước tiếp theo chưa thực sự cần thiết. | **Chọn Workflow có AI hỗ trợ một số bước** (tạm thời). AI hỗ trợ đọc, tổng hợp kiến thức và tạo câu hỏi; sinh viên kiểm tra, đối chiếu nguồn và quyết định nội dung sử dụng. Quyết định Go/Not Yet cần chờ kiểm chứng baseline, chất lượng đầu ra và mức độ chấp nhận của người dùng. Nếu AI thường xuyên tạo nội dung sai hoặc sinh viên phải sửa phần lớn kết quả, quay về template + checklist thủ công. |
 
 ---
 
@@ -183,22 +183,40 @@ BOTTLENECK GIẢ ĐỊNH: Bước 2–4 — chuyển rubric thành checklist và
 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+## 6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Tôi nhận ra mỗi lĩnh vực đều có những bottleneck riêng, nhưng điểm chung là mất nhiều thời gian xử lý thông tin lặp lại hoặc phân tán. Một vấn đề đáng giải quyết không nhất thiết phải quá phức tạp mà cần có tần suất xảy ra, tác động rõ ràng và quy trình đủ cụ thể để cải thiện.
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+## 6.2. Nhóm có lúc nào bị "solution-first" không? Lúc đó nhóm nhận ra và xử lý thế nào?
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Có. Ban đầu, nhóm có xu hướng nghĩ ngay đến việc sử dụng AI để tìm kiếm và tóm tắt guideline. Sau đó, nhóm nhận ra cần hiểu rõ quy trình tra cứu hiện tại, xác định thời gian thực sự mất ở khâu tìm kiếm, sàng lọc hay đọc tài liệu. Nhóm quay lại phân tích từng bước để xác định đúng bottleneck trước khi lựa chọn giải pháp.
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+## 6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Có. Ban đầu, tôi nghĩ AI có thể tự động đánh giá và loại bỏ các nghiên cứu kém chất lượng. Tuy nhiên, sau khi được phản biện về việc tiêu chí đánh giá chất lượng nghiên cứu có thể khác nhau tùy loại nghiên cứu và chuyên ngành, tôi nhận ra không nên giao toàn bộ quyết định cho AI. Thay vào đó, AI nên hỗ trợ sàng lọc theo tiêu chí và để bác sĩ đưa ra quyết định cuối cùng.
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+## 6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?
+
+Có. Tôi khá bất ngờ khi quy trình tra cứu và sàng lọc tài liệu có thể mất khoảng 90 phút cho một vấn đề lâm sàng, trong đó 60 phút dành cho tìm kiếm và lọc nghiên cứu. Điều này cho thấy bottleneck không chỉ nằm ở việc đọc tài liệu mà còn ở việc tìm đúng nguồn và đánh giá mức độ phù hợp, chất lượng của tài liệu.
+
+## 6.5. Điều khó nhất khi viết Problem Statement là gì?
+
+Khó nhất là xác định chính xác vấn đề và phạm vi cần giải quyết mà không đưa giải pháp AI vào quá sớm. Cần phân biệt giữa biểu hiện bên ngoài và bottleneck thực sự, đồng thời xác định rõ ai bị ảnh hưởng, trong hoàn cảnh nào và tác động cụ thể ra sao.
+
+## 6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?
+
+Nếu làm lại, tôi sẽ dành nhiều thời gian hơn để kiểm chứng quy trình thực tế và thu thập số liệu từ nhiều bác sĩ thay vì chỉ dựa trên ước lượng ban đầu. Tôi cũng sẽ phản biện mạnh hơn về tính chuẩn hóa của tiêu chí đánh giá chất lượng nghiên cứu, độ tin cậy của nguồn tài liệu và trách nhiệm của bác sĩ khi sử dụng kết quả do AI đề xuất.
+
+## 6.7. Hiểu bài: Giải thích chuỗi problem → quy trình → metric → boundary → mức can thiệp AI → quyết định.
+
+Problem của nhóm là bác sĩ mất nhiều thời gian tra cứu và sàng lọc guideline, nghiên cứu khi gặp vấn đề lâm sàng cần đối chiếu y văn trong ngày. Quy trình hiện tại gồm 5 bước, từ xác định vấn đề, tìm kiếm tài liệu, sàng lọc nghiên cứu, đọc kỹ đến tổng hợp thông tin phục vụ quyết định chuyên môn. Metric chính là thời gian xử lý, hiện ước tính khoảng 90 phút cho mỗi vấn đề, trong đó 60 phút dành cho tìm kiếm và sàng lọc. Boundary của bài toán là hỗ trợ tra cứu và sàng lọc tài liệu chuyên môn, không thay thế bác sĩ chẩn đoán hoặc quyết định điều trị. Mức can thiệp AI phù hợp là **AI hỗ trợ một số bước trong workflow**, đặc biệt là tìm kiếm, trích xuất thông tin và sàng lọc theo tiêu chí. Các kết quả cần có nguồn trích dẫn để bác sĩ kiểm chứng và đánh giá lại. Vì vậy, nhóm quyết định lựa chọn hướng xây dựng công cụ AI hỗ trợ tra cứu và sàng lọc guideline, với bác sĩ giữ quyền quyết định cuối cùng.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- Del Fiol G. và cộng sự, *JAMA Internal Medicine*, 2014 (tổng hợp 11 nghiên cứu về câu hỏi lâm sàng của bác sĩ; nguồn của số liệu 0,57 câu hỏi/bệnh nhân và 51% được đi tìm câu trả lời, dẫn trong báo cáo nhóm).
+- OpenEvidence: https://www.openevidence.com/
+- UpToDate Expert AI, Wolters Kluwer, 9/2025: https://www.wolterskluwer.com/en/solutions/uptodate
+- Worksheet Day 02, `docs/01-worksheet.md` (Job Story, Opportunity Solution Tree, Mom Test, ma trận mơ hồ × phức tạp, No AI / Rule / Workflow / Agent, AI Canvas, Google PAIR, 4 rủi ro).
+- Báo cáo nhóm Ban4, `report/team/group_report.md`.
