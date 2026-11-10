@@ -89,14 +89,14 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
-- Scan 20 vấn đề theo 4 lăng kính và chọn top 3 Problem Card: hóa đơn đầu vào bị lệch, giáo viên chấm và nhận xét bài, người bệnh chờ kết quả cận lâm sàng; mỗi card có quy trình nháp, bottleneck, success metric và phương án không dùng AI.
+- Scan 10 vấn đề theo 4 lăng kính và chọn top 3 Problem Card: hóa đơn đầu vào bị lệch, giáo viên chấm và nhận xét bài, người bệnh chờ kết quả cận lâm sàng; mỗi card có quy trình nháp, bottleneck, success metric và phương án không dùng AI.
 - Đưa 3 card vào bảng pitch (dòng #10–12); gom 12 candidate của nhóm thành 4 cluster, viết cây OST với 1 outcome và 4 nhánh pain, gạch bỏ 5 solution đội lốt; ghi lý do loại 3 card của mình.
 - Phản biện các card của Nguyễn Bảo Trung (#2, #3) và Đặng Quang Duy (#5, #6) trong bảng pitch nhóm; phản biện nhóm 1: "Thị trường đã có sản phẩm tương tự, sản phẩm của bạn có gì tốt hơn?"
 - Tham gia bỏ phiếu chọn candidate, chọn mức Workflow và góp ý Boundary.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- [Báo cáo cá nhân](report/individual/2A202603997_NguyenMinhPhuong.md): mục 2 (scan 20 vấn đề), mục 3 (3 Problem Card và quy trình nháp) — commit `b79ed5d`.
+- [Báo cáo cá nhân](report/individual/2A202603997_NguyenMinhPhuong.md): mục 2 (scan 10 vấn đề), mục 3 (Problem Card #1 chi tiết, card #2–3 tóm tắt) — commit `b79ed5d`.
 - [Báo cáo nhóm](report/team/group_report.md): mục 2.1 dòng #10–12, mục 2.2 Cluster, mục 2.3 OST, mục 2.4 lý do loại — commit `2d83628`.
 
 **Điều mình học được từ phần nhóm:**
