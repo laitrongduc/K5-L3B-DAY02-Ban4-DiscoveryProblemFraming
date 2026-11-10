@@ -15,7 +15,7 @@
 | 1 | Lại Trọng Đức | 2A202604019 | Chuẩn bị candidate problem,hỗ trợ tổng hợp các candidate vào bảng Pitch (CP3). | laitrongduc |
 | 2 | Nguyễn Bảo Trung | 2A202604013 | Thuyết trình (Pitch) & trả lời câu hỏi phản biện & insight + problem| trungnb|
 | 3 | Nguyễn Minh Phương | 2A202603997 | Gom cluster / cây OST, chuẩn bị 3 Problem Card, phản biện | minhphuong150505 |
-| 4 | | | | |
+| 4 | Đặng Quang Duy | 2A202603984 | Chuẩn bị candidate problem (Problem Card #4–#6) và pitch; phản biện các card của bạn; góp ý quy trình trước/sau, mức can thiệp AI (phân tích hạn chế của No AI) và phạm vi pilot. | duydang2k4 |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -28,9 +28,9 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 | CP3 — Hội tụ nhóm | Nhóm |Nhóm | Cluster, cây OST, bảng chấm điểm |
 | CP4 — Kiểm chứng |  | Nguyễn Bảo Trung| Assumption map, snapshot hoặc survey |
 | CP4 — Research | | | Bảng research có link |
-| CP5 — Quy trình trước/sau | Nguyễn Bảo Trung | | Quy trình + bảng before/after |
+| CP5 — Quy trình trước/sau | Nguyễn Bảo Trung | Đặng Quang Duy | Quy trình + bảng before/after |
 | CP5 — Problem Statement v0 | | | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Mức can thiệp + Problem Statement v1 | | Đặng Quang Duy (phần mức can thiệp AI) | Ma trận, AI Canvas, eval, Problem Statement v1 |
 | CP6 — Quyết định | Nhóm | Nhóm | 4 rủi ro + Go/Not Yet/No-Go |
 
 ## Cá nhân
@@ -102,3 +102,26 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 - Mỗi người phân tích và đánh giá cùng một bài toán theo cách khác nhau; cần phân tích nhu cầu và tình hình thực tế trước khi đưa ra giải pháp, và phải đánh giá cả rủi ro của sản phẩm chứ không chỉ tập trung xử lý vấn đề của người dùng.
+
+### DangQuangDuy-2A202603984
+
+**Phần việc phụ trách:**
+
+- Chuẩn bị candidate problem và 3 Problem Card (tổng hợp tài liệu ôn thi, hỏi đáp khái niệm trên tài liệu môn học, đối chiếu bài nộp với rubric); pitch 3 candidate #4–#6 cho nhóm; phản biện card của bạn; góp ý quy trình trước/sau, mức can thiệp AI (phân tích hạn chế của No AI) và phạm vi pilot.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Pitch 3 candidate vào bảng pitch nhóm (dòng #4–6): #4 tổng hợp tài liệu ôn thi, #5 ticket CSKH thương mại điện tử, #6 đơn COD có nguy cơ bị từ chối. Card #4 vào shortlist, đạt 30/35 điểm, xếp thứ 2 sau candidate bác sĩ lọc y văn (31 điểm).
+- Phản biện candidate #10 (hóa đơn lệch PO) của Nguyễn Minh Phương: hỏi nghẽn thật nằm ở bước đối chiếu hay bước chờ duyệt, và doanh nghiệp vừa ở VN có PO/phiếu nhập điện tử hay không; nhóm dùng đúng hai lý do này khi loại #10.
+- Sửa card #1 sau phản biện (của Trung và của AI): thêm metric chất lượng (truy ngược nguồn, bao phủ đề cương, tự kiểm tra 20 câu) và thu hẹp phạm vi về một môn học thay vì chatbot học tập tổng quát.
+- Góp ý quy trình trước/sau (5 bước hiện tại, 4 bước tương lai Rule → DL → LLM → Bác sĩ); chỉ ra những khó khăn của phương án No AI khi chọn mức can thiệp; góp ý hướng pilot phạm vi hẹp trên kho Răng Hàm Mặt cùng ngưỡng dừng.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- [Báo cáo cá nhân](report/individual/2A202603984_DangQuangDuy.md): mục 2 (scan 8 problem), mục 3 (3 Problem Card, quy trình nháp, bảng phản biện của AI), mục 4 (tham gia CP3 → CP7), mục 5 (dùng AI), mục 6 (reflection).
+- [Báo cáo nhóm](report/team/group_report.md): mục 2.1 dòng #4–6, mục 2.2 (cluster A, B, D), mục 2.3 (ý "ChatGPT tóm tắt slide" bị gạch bỏ), mục 2.4 (bảng chấm điểm shortlist), mục 4 (quy trình), mục 6.2 (so sánh 4 mức), mục 8.2 (pilot & ngưỡng dừng).
+
+**Điều mình học được từ phần nhóm:**
+
+- Bottleneck không chỉ nằm ở việc đọc tài liệu mà còn ở việc tìm đúng nguồn và đánh giá chất lượng, mức phù hợp của tài liệu (ví dụ 60 phút/90 phút cho một vấn đề lâm sàng).
+- Không nên giao toàn bộ quyết định cho AI: AI chỉ hỗ trợ sàng lọc theo tiêu chí, người dùng (bác sĩ) giữ quyết định cuối và phải đối chiếu đoạn gốc. Các con số ước tính cần được đo thực tế trước khi dùng làm cơ sở chọn bài toán, vì card #4 của mình mất điểm đúng ở mục "Pain có bằng chứng".
